@@ -1,17 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'Conv_DinDan_light';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
 }
 
+@font-face {
+    font-family: 'Conv_DinDan_Bold';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.eot?v=14058020777788244209);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.woff?v=10850239138808651831) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.ttf?v=4627982534416081941) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.svg?v=11775473326942160775) format("svg");
+    font-weight: 700;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Conv_DinDan';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
 .flex {
 
     display: flex;
     height: auto;
 }
 .flex img {
-	width: 950px;
+	width: 985px;
 	float: right;
 }
 .flex .left-box, .flex .right-box {
@@ -30,8 +50,8 @@
   }
   
 .zoom:hover {
-	-ms-transform: scale(1.1); /* IE 9 */
-	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
 	transform: scale(1.1); 
   }
 
@@ -109,7 +129,7 @@
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: center;
-	  z-index: 10;
+	z-index: 10;
 	font-size: 40px;
 	color: white;
 	font-weight: bold;
@@ -172,17 +192,6 @@ p {
 
 
   
-.slick-dots {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	right: 76%;
-	bottom: 30px;
-	margin: 0;
-	padding: 1rem 0;
-	z-index: 100;
-	list-style-type: none;
-}
 
 .col-12 {
 	border: none;
@@ -229,15 +238,27 @@ p {
 	right: 0;
   }
 
-  li {
+  .slick-dots {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	right: 76%;
+	bottom: 30px;
+	margin: 0;
+	padding: 1rem 0;
+	z-index: 100;
+	list-style-type: none;
+}
+
+.slick-dots  li {
 	margin: 0 0.25rem;
 }
 
-li.slick-active button {
+.slick-dots li.slick-active button {
 	background-color: #ff0000;
 }
 
-button {
+.slick-dots button{
 	display: block;
 	width: 0.5rem;
 	height: 0.5rem;
@@ -245,4 +266,5 @@ button {
 	border: none;
 	border-radius: 100%;
 	text-indent: -9999px;
+	
 }
