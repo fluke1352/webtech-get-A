@@ -1,0 +1,185 @@
+body {
+    background-image: url('img/bg.jpg');
+    background-position: 50% 0;
+    background-attachment: fixed;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Conv_DinDan_light';
+  }
+  #txt1{
+    line-height: 1.1;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 2.3em;
+    font-family: 'Conv_DinDan_Bold';
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin: 0 0 0.75em;
+    line-height: 1.4;
+    font-size: 2.57143em;
+}
+h1 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+p {
+    font-family: 'Conv_DinDan';
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#txt2{
+    color: #fff;
+    *zoom: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card{
+    margin-bottom: 15px;
+    padding: 45px;
+    background-color: #fff;
+    margin: 0px;
+}
+#box2{
+    background-image: url('img/bg2.jpg'); 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 5%;
+    background-position: 100% 50%;
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   padding: 4%;
+    background-size: cover;
+    
+}
+#box3{
+    background-image: url('img/bg3.jpg'); 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 5%;
+    background-position: 100% 50%;
+    /* background-attachment: fixed; */
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   padding: 4%;
+    background-size: cover;
+    
+    
+}
+.rte{
+    margin-bottom: 0px;
+    word-wrap: break-word; 
+    padding: 0px;
+}
+#txt3{
+    color: #fff;
+    *zoom: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+.image {
+    display: block;
+    height: 30vw;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.inner {
+      background-size: cover;
+      display: block;
+      height: 100%;
+      transform: scale(1, 1);
+      transition: transform 0.4s;
+      margin: 0px;
+    padding: 0px;
+    
+ }
+ a:hover {
+    text-decoration: none;
+  }
+  
+  
+  .image:hover .inner {
+    
+      transform: scale(1.05, 1.05);
+    
+  }
+  .title--flex {
+    margin-bottom: 15px;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Conv_DinDan_light';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Conv_DinDan_Bold';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.eot?v=14058020777788244209);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.woff?v=10850239138808651831) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.ttf?v=4627982534416081941) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.svg?v=11775473326942160775) format("svg");
+    font-weight: 700;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Conv_DinDan';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
