@@ -1,9 +1,11 @@
 <html lang="en" class="">
 
 <head>
-
     <meta charset="UTF-8">
-    <title>เสื้อเชิ้ตสีขาว</title>
+    <title><?php 
+        echo $_GET['name']; 
+    ?></title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sticky.js is a library written in vanilla javascript. With this library you can easliy add sticky elements to your site which are sticky to whole page or it's parent container">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -29,10 +31,8 @@
 
 <body>
     <?php
-    $number = $_POST['index'];
-    $n = $_POST['name'];
+    $number = $_GET['index'];
     $index = intval($number);
-    $name = intval($n);
     ?>
 
     <div class="nav-header-wrapper">
