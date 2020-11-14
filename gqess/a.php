@@ -1,11 +1,11 @@
 <html lang="en" class="">
 
 <head>
+
     <meta charset="UTF-8">
-    <title><?php 
-        echo $_GET['name']; 
-    ?></title>
-    
+    <title><?php
+            echo $_GET['name'];
+            ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sticky.js is a library written in vanilla javascript. With this library you can easliy add sticky elements to your site which are sticky to whole page or it's parent container">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -30,6 +30,7 @@
 </head>
 
 <body>
+
     <?php
     $number = $_GET['index'];
     $index = intval($number);
@@ -502,7 +503,7 @@
             <div class="col-md-1" data-sticky-container>
                 <div style="position: sticky;top: 0;">
                     <?php
-                    $string = file_get_contents("GQWhite.json");
+                    $string = file_get_contents("essentials.json");
                     $result = json_decode($string);
 
                     foreach ($result[$index]->image as $val) {
@@ -516,7 +517,7 @@
             <div class=" col-md-5">
                 <div class="col-md-12 mx-auto" alt="Not sticky" style="padding:0%;">
                     <?php
-                    $string = file_get_contents("GQWhite.json");
+                    $string = file_get_contents("essentials.json");
                     $result = json_decode($string);
                     foreach ($result[$index]->image as $val) {
                         echo '<img class="img-right my-1" src="' . $val . '" alt="">';
@@ -531,7 +532,7 @@
             <div class="col-md-6 mx-auto" data-sticky-container>
                 <div class="container" style="position: sticky;top: 0;">
                     <?php
-                    $string = file_get_contents("GQWhite.json");
+                    $string = file_get_contents("essentials.json");
                     $result = json_decode($string);
                     echo '<b class="pname row mb-1"><p>' . $result[$index]->Ename . '<br>';
                     echo $result[$index]->Tname . '</p></b>';
