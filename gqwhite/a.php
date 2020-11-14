@@ -28,6 +28,12 @@
 </head>
 
 <body>
+    <?php
+    $number = $_POST['index'];
+    $n = $_POST['name'];
+    $index = intval($number);
+    $name = intval($n);
+    ?>
 
     <div class="nav-header-wrapper">
         <div class="nav-info-bar">
@@ -366,7 +372,7 @@
                     $string = file_get_contents("GQWhite.json");
                     $result = json_decode($string);
 
-                    foreach ($result[3]->image as $val) {
+                    foreach ($result[$index]->image as $val) {
                         echo '<div class="bgl mt-2"><img class="img-left my-auto mx-auto" src="' . $val . '" alt=""></div>';
                     }
 
@@ -379,7 +385,7 @@
                     <?php
                     $string = file_get_contents("GQWhite.json");
                     $result = json_decode($string);
-                    foreach ($result[3]->image as $val) {
+                    foreach ($result[$index]->image as $val) {
                         echo '<img class="img-right my-1" src="' . $val . '" alt="">';
                     }
 
@@ -394,11 +400,11 @@
                     <?php
                     $string = file_get_contents("GQWhite.json");
                     $result = json_decode($string);
-                    echo '<b class="pname row mb-1"><p>' . $result[3]->Ename . '<br>';
-                    echo $result[3]->Tname . '</p></b>';
+                    echo '<b class="pname row mb-1"><p>' . $result[$index]->Ename . '<br>';
+                    echo $result[$index]->Tname . '</p></b>';
                     echo '<div class="row mb-3">
           
-          <p class="col-8" style="padding:0%;"><span class="red">' . $result[3]->Mprice . '</span><span><del> ' . $result[3]->Fprice . '</del></span></p> 
+          <p class="col-8" style="padding:0%;"><span class="red">' . $result[$index]->Mprice . '</span><span><del> ' . $result[$index]->Fprice . '</del></span></p> 
 
           <a style="color:#000000; text-decoration: none;" class="float-right text-right col-4"><span>แชร์</span>
           <span><svg class="share" aria-hidden="true" focusable="false" role="presentation"
@@ -410,7 +416,7 @@
            </div>';
 
 
-                    echo '<div class="row" ><p style="color:red;">Best Seller!</p><p>' . $result[3]->Detail . '<br><b>' . $result[3]->sex . '</b></p></div>';
+                    echo '<div class="row" ><p style="color:red;">Best Seller!</p><p>' . $result[$index]->Detail . '<br><b>' . $result[$index]->sex . '</b></p></div>';
                     echo '<hr>';
                     ?>
                     <div class="row">
