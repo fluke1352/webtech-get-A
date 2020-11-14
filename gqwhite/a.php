@@ -420,10 +420,10 @@
                                 <a href=" #">GQSize™</a>
                             </li>
                             <li class="nav-item nav-item-wrap">
-                                <a href=" #">Our Story</a>
+                                <a href="/pages/abutme.html">Our Story</a>
                             </li>
                             <li class="nav-item nav-item-wrap">
-                                <a style="padding-right: 0;" href=" #">Guide Book</a>
+                                <a style="padding-right: 0;" href="/pages/guidebook.html">Guide Book</a>
                             </li>
                         </ul>
                     </nav>
