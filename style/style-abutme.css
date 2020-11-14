@@ -1,5 +1,5 @@
 body {
-    background-image: url('img/bg.jpg');
+    background-image: url('/img/img-abuteme/bg.jpg');
     background-position: 50% 0;
     background-attachment: fixed;
     /* position: absolute; */
@@ -70,7 +70,7 @@ p {
     margin: 0px;
 }
 #box2{
-    background-image: url('img/bg2.jpg'); 
+    background-image: url('/img/img-abuteme/bg2.jpg'); 
     list-style: none;
     margin: 0;
     padding: 0;
@@ -89,7 +89,7 @@ p {
     
 }
 #box3{
-    background-image: url('img/bg3.jpg'); 
+    background-image: url('/img/img-abuteme/bg3.jpg'); 
     list-style: none;
     margin: 0;
     padding: 0;
