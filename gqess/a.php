@@ -35,7 +35,6 @@
     $number = $_GET['index'];
     $index = intval($number);
     ?>
-
     <div class="nav-header-wrapper">
         <div class="nav-info-bar">
             <div class="nav-info-bar-body">
@@ -71,7 +70,7 @@
                                 </div>
                             </li>
                             <li class="nav-item nav-item-wrap">
-                                <a href=" #">GQ PerfectPolo™</a>
+                                <a href="../62070144/polo.html">GQ PerfectPolo™</a>
                             </li>
                             <li class="nav-item drop-down nav-item-wrap">
                                 <a class="drop-down" href="/pages/GQWhite-main.html">GQWhite™</a>
@@ -493,6 +492,8 @@
             </div>
         </div>
     </div>
+
+
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb" style="margin-bottom: 0;">
