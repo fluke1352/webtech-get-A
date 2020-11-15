@@ -36,7 +36,7 @@
     $index = intval($number);
     ?>
 
-<div class="nav-header-wrapper">
+    <div class="nav-header-wrapper">
         <div class="nav-info-bar">
             <div class="nav-info-bar-body">
                 <div class="nav-wrapper text-center">
@@ -54,7 +54,7 @@
                             <li class="nav-item">
                                 <div class="nav-logo-wrapper">
                                     <div class="nav-header-logo">
-                                        <a href="index.html">
+                                        <a href="../index.html">
                                             <span>
                                                 <svg aria-hidden="true" focusable="false" role="presentation"
                                                     class="nav-icon" viewBox="0 0 1727.3 616.5">
@@ -207,7 +207,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item nav-item-dropdown-16 float-left">
-                                            <a href="#">
+                                            <a href="../gqmask/a.php?index=0&name=GQWhite™ Mask หน้ากากผ้ากันน้ำ">
                                                 <div class="nav-link-bg"
                                                     data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/products/mask_black_180x.jpg?v=1602749388 180w 228h,
                                                 //cdn.shopify.com/s/files/1/0439/3192/6691/products/mask_black_360x.jpg?v=1602749388 360w 455h,
@@ -493,6 +493,22 @@
             </div>
         </div>
     </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb" style="margin-bottom: 0;">
+            <li class="breadcrumb-item">
+                <a href="../index.html">หน้าหลัก</a>
+            </li>
+            <li class="breadcrumb-item">
+                <?php
+                    $string = file_get_contents("essentials.json");
+                    $result = json_decode($string);
+                    echo $result[$index]->Ename;
+                ?>
+            </li>
+        </ol>
+    </nav>
+
 
 
     <div class="container mx-auto">
@@ -832,7 +848,7 @@
                         <div class="grid-product-item grid-item col-50 col-20">
                             <div>
                                 <div style="padding:1.75213675% 0;">
-                                    <a href="GQWhite™ Black ที่สุดแห่งเสื้อเชิ้ตสีดำ">
+                                    <a href="../gqwhite/a.php?index=0&name=GQWhite™Blackที่สุดแห่งเสื้อเชิ้ตสีดำ">
                                         <div>
                                             <div style="background-image: none;">
                                                 <img src="https://cdn.shopify.com/s/files/1/0439/3192/6691/products/GQBlack_feature_TH_360x.jpg?v=1603354985" alt="">
@@ -842,7 +858,7 @@
                                 </div>
                             </div>
                             <div class="grid-meta text-left">
-                                <a href="#">
+                                <a href="../gqwhite/a.php?index=0&name=GQWhite™Blackที่สุดแห่งเสื้อเชิ้ตสีดำ">
                                     <b class="product-title text-black">[ซื้อ1แถม1] GQWhite™ Black <br> "ที่สุดแห่งเสื้อเชิ้ตสีดำ"
                                     </b>
                                     <p style="color: #000;">
@@ -854,7 +870,7 @@
                         <div class="grid-product-item grid-item col-50 col-20">
                             <div>
                                 <div style="padding:1.75213675% 0;">
-                                    <a href="#">
+                                    <a href="../gqwhite/a.php?index=3&name=GQWhite™Blueที่สุดแห่งเสื้อเชิ้ตสี">
                                         <div>
                                             <div style="background-image: none;">
                                                 <img src="https://cdn.shopify.com/s/files/1/0439/3192/6691/products/GQBlue_feature_TH_360x.jpg?v=1603354929" alt="">
@@ -864,7 +880,7 @@
                                 </div>
                             </div>
                             <div class="grid-meta text-left">
-                                <a href="#">
+                                <a href="../gqwhite/a.php?index=3&name=GQWhite™Blueที่สุดแห่งเสื้อเชิ้ตสี">
                                     <b class="product-title text-black">[ซื้อ1แถม1] GQWhite™ Blue <br> "ที่สุดแห่งเสื้อเชิ้ตสีฟ้า"
                                     </b>
                                     <p style="color: #000;">
@@ -898,7 +914,7 @@
                         <div class="grid-product-item grid-item col-50 col-20">
                             <div>
                                 <div style="padding:1.75213675% 0;">
-                                    <a href="#">
+                                    <a href="../gqmask/a.php?index=2&name=Limited Distance Edition GQWhite™ Mask">
                                         <div>
                                             <div style="background-image: none;">
                                                 <img src="https://cdn.shopify.com/s/files/1/0439/3192/6691/products/lim-mask-black-3-real_360x.jpg?v=1599625586" alt="">
@@ -908,7 +924,7 @@
                                 </div>
                             </div>
                             <div class="grid-meta text-left">
-                                <a href="#">
+                                <a href="../gqmask/a.php?index=2&name=Limited Distance Edition GQWhite™ Mask">
                                     <b class="product-title text-black">Limited Distance Edition GQWhite™ Mask
                                     </b>
                                     <p style="color: #000;">
@@ -964,7 +980,7 @@
 
                     </div>
                     <p>
-                        <a href="" class="btn  btn-success">สั่งซื้อตอนนี้&nbsp;<span>&#8594;</a>
+                        <a href="/pages/GQmask-shop-all.html" class="btn  btn-success">สั่งซื้อตอนนี้&nbsp;<span>&#8594;</a>
                     </p>
                 </div>
             </div>

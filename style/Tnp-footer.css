@@ -1,0 +1,233 @@
+body,
+input,
+textarea,
+button,
+select {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Conv_DinDan";
+    color: #000;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.site-footer {
+    position: relative;
+}
+
+.footer__cta {
+    position: relative;
+    padding: 0;
+}
+
+.footer__cta .footer__cta__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer__cta .footer__cta__wrap,
+.footer__cta .footer__cta__body {
+    position: relative;
+}
+
+.footer__cta .footer__cta__wrap {
+    width: 545px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.footer__cta .footer__cta__body {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.footer__cta .footer__cta__subtitle {
+    margin-bottom: 0;
+}
+
+.footer__cta .footer__cta__title {
+    margin-bottom: 10px;
+}
+
+.footer__primary {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #ededed;
+    color: #000;
+}
+
+ul,
+ol {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.footer__primary a {
+    color: #000;
+}
+
+.social-icon-line svg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px
+}
+
+.social-icons li {
+    margin: 0 7.5px;
+    vertical-align: middle;
+}
+
+.social-icons li svg {
+    width: 30px;
+    height: 30px;
+}
+
+.lili {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.icon-svg {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.social-icons {
+    margin: -7.5px;
+}
+
+.site-footer {
+    position: relative;
+}
+
+.footer__secondary {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer__secondary .footer__copyright__logo {
+    margin-right: 15px;
+}
+
+.wrapperjim {
+    text-align: center;
+    width: 50px;
+    height: auto;
+}
+
+.footer-list-padding li {
+    margin-bottom: 11px;
+    font-size: 14px;
+    font-family: 'Conv_DinDan';
+}
+
+.footer-list-padding li a:hover {
+    color: #000;
+}
+
+.footer-myBtn {
+    background-color: #1fa652;
+    color: #fff;
+    padding: 10px 20px 8px;
+    vertical-align: middle;
+    font-family: "Conv_DinDan";
+}
+
+.footer-myBtn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #177b3d;
+    padding: 10px 20px 8px;
+}
+
+.footer-myBtn::after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 128 68' style='enable-background:new 0 0 128 68;' xml:space='preserve'%3E%3Cpolygon fill='%23ffffff' points='84.8,8.6 104.3,28.2 -0.7,28.2 -0.7,39.8 104.3,39.8 84.8,59.4 93.1,67.7 126.7,34 93.1,0.3 '/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-timing-function: 0.2s;
+}
+
+.footer-myBtn:hover:after {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 128 68' style='enable-background:new 0 0 128 68;' xml:space='preserve'%3E%3Cpolygon fill='%23ffffff' points='84.8,8.6 104.3,28.2 -0.7,28.2 -0.7,39.8 104.3,39.8 84.8,59.4 93.1,67.7 126.7,34 93.1,0.3 '/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.15s;
+}
+
+.footer_black {
+    color: black;
+    text-decoration: underline;
+}
+
+.footer_black:hover {
+    color: #000;
+}
+
+@font-face {
+    font-family: 'Conv_DinDan_light';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Light.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Conv_DinDan_Bold';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.eot?v=14058020777788244209);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.woff?v=10850239138808651831) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.ttf?v=4627982534416081941) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Bold.svg?v=11775473326942160775) format("svg");
+    font-weight: 700;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: 'Conv_DinDan';
+    src: url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.eot?v=4409842501536506684);
+    src: local("Conv_DinDan"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.woff?v=10331324658316079664) format("woff"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.ttf?v=6769572477753268903) format("truetype"), url(//cdn.shopify.com/s/files/1/0439/3192/6691/t/10/assets/font-DinDan-Regular.svg?v=3686058442348332622) format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
