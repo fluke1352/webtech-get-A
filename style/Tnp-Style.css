@@ -295,6 +295,13 @@ h6,
     padding: 14px 30px 12px;
 }
 
+.myBtn-bright:hover {
+    color: #fff;
+    padding: 14px 30px 12px;
+    text-decoration: none;
+    background-color: #17c459;
+}
+
 .myBtn::after {
     content: "";
     display: inline-block;
