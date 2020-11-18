@@ -283,6 +283,7 @@ h6,
     font-family: "Conv_DinDan";
 }
 
+
 .myBtn-clear:hover {
     background-color: #2e3438;
     color: #fff;
@@ -984,6 +985,10 @@ td {
 @media only screen and (min-width: 768px) {
     .hide-on-large {
         display: none !important;
+    }
+
+    .justify-content-center-sm {
+        justify-content: center !important;
     }
 
     .gqapparel-item-image-wrapper {
