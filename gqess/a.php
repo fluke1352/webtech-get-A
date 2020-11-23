@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:300" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0439/3192/6691/files/qqsize-favicon_32x32.png?v=1603080287" type="image/png">
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0439/3192/6691/t/15/assets/favicon.ico?v=12543137675588273762">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -35,6 +35,7 @@
     $number = $_GET['index'];
     $index = intval($number);
     ?>
+    
     <div class="nav-header-wrapper">
         <div class="nav-info-bar">
             <div class="nav-info-bar-body">
@@ -73,25 +74,15 @@
                                 <a href="../pages/polo.html">GQ PerfectPolo™</a>
                             </li>
                             <li class="nav-item drop-down nav-item-wrap">
-                                <a class="drop-down" href="../pages/GQWhite-main.html">GQWhite™</a>
+                                <a class="drop-down" href="../pages/GQWhite-main.html">GQWhite™ Shirt</a>
                                 <div class="nav-dropdown ">
                                     <ul class="nav-dropdrown-list">
                                         <li class="nav-item nav-item-dropdown-20 float-left">
                                             <a href="../pages/GQwhite-shop-all.html">
                                                 <div class="nav-link-bg"
-                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation_180x.jpg?v=1603704621 180w 210h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation.jpg?v=1603704621 346w 404h"
-                                                    role="img" aria-label=""
-                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation_600x.jpg?v=1603704621&quot;)"
-                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation.jpg?v=1603704621&quot;);">
-                                                    <picture style="display: none;">
-                                                        <source
-                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation_180x.jpg?v=1603704621 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation.jpg?v=1603704621 346w 404h"
-                                                            sizes="168.85714285714283px"
-                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation_180x.jpg?v=1603704621 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/gqwhite-shirt-shop-all-sale-navigation.jpg?v=1603704621 346w 404h">
-                                                        <img width="100%" alt="" data-sizes="auto"
-                                                            data-parent-fit="cover" sizes="168.85714285714283px">
-                                                    </picture>
+                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt_180x.jpg?v=1606132776 180w 210h,
+                                                     //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt.jpg?v=1606132776 346w 404h" role="img" aria-label="" _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt_600x.jpg?v=1606132776&quot;)" style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt.jpg?v=1606132776&quot;);"><picture style="display: none;"><source data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt.jpg?v=1606132776 346w 404h" sizes="168.85714285714283px" srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqwhite_shirt.jpg?v=1606132776 346w 404h"><img alt="" class="lazyautosizes lazyloaded" data-sizes="auto" data-parent-fit="cover" sizes="168.85714285714283px">
+                                            </picture>
                                                 </div>
                                                 <div class="nav-link">Shop all</div>
                                             </a>
@@ -180,32 +171,20 @@
                                 </div>
                             </li>
                             <li class="nav-item drop-down nav-item-wrap">
-                                <a class="drop-down" href="GQmask-main.html">GQMask™</a>
+                                <a class="drop-down" href="../pages/GQmask-main.html">GQMask™ Adult</a>
                                 <div class="nav-dropdown">
                                     <ul class="nav-dropdrown-list">
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../pages/GQmask-shop-all.html">
                                                 <div class="nav-link-bg"
-                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_180x.jpg?v=1600251977 180w 207h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_360x.jpg?v=1600251977 360w 413h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_540x.jpg?v=1600251977 540w 620h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall.jpg?v=1600251977 566w 650h"
-                                                    role="img" aria-label=""
-                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_600x.jpg?v=1600251977&quot;)"
-                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_360x.jpg?v=1600251977&quot;);">
-                                                    <picture style="display: none;">
-                                                        <source
-                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_180x.jpg?v=1600251977 180w 207h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_360x.jpg?v=1600251977 360w 413h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_540x.jpg?v=1600251977 540w 620h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall.jpg?v=1600251977 566w 650h"
-                                                            sizes="139.1304347826087px"
-                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_180x.jpg?v=1600251977 180w 207h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_360x.jpg?v=1600251977 360w 413h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall_540x.jpg?v=1600251977 540w 620h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_shopall.jpg?v=1600251977 566w 650h">
-                                                        <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
-                                                            data-parent-fit="cover" sizes="139.1304347826087px">
-                                                    </picture>
-                                                </div>
+                                                        data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask_180x.jpg?v=1606132776 180w 210h,
+                                                        //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask.jpg?v=1606132776 346w 404h" role="img" aria-label="" _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask_600x.jpg?v=1606132776&quot;)" style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask.jpg?v=1606132776&quot;);"><picture style="display: none;"><source data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask.jpg?v=1606132776 346w 404h" sizes="215.99999999999997px" srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_gqmask.jpg?v=1606132776 346w 404h"><img alt="" class="lazyautosizes lazyloaded" data-sizes="auto" data-parent-fit="cover" sizes="215.99999999999997px">
+                                                        </picture>
+                                                    </div>
                                                 <div class="nav-link">Shop all</div>
                                             </a>
                                         </li>
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../gqmask/a.php?index=0&name=GQWhite™ Mask หน้ากากผ้ากันน้ำ">
                                                 <div class="nav-link-bg"
                                                     data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/products/mask_black_180x.jpg?v=1602749388 180w 228h,
@@ -226,7 +205,7 @@
                                                 <div class="nav-link">GQWhite™ Mask</div>
                                             </a>
                                         </li>
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../pages/GQmask-size-bear.html">
                                                 <div class="nav-link-bg"
                                                     data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_bearmask_180x.jpeg?v=1600251977 180w 207h,
@@ -248,27 +227,7 @@
                                                 <div class="nav-link">GQWhite™ Mask Plus Size</div>
                                             </a>
                                         </li>
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
-                                            <a href="../pages/GQschool-mask.html">
-                                                <div class="nav-link-bg"
-                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h"
-                                                    role="img" aria-label=""
-                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_600x.jpg?v=1603274113&quot;)"
-                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113&quot;);">
-                                                    <picture style="display: none;">
-                                                        <source
-                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h"
-                                                            sizes="137.1428571428571px"
-                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h">
-                                                        <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
-                                                            data-parent-fit="cover" sizes="137.1428571428571px">
-                                                    </picture>
-                                                </div>
-                                                <div class="nav-link">SchoolMaskPack™</div>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../pages/GQmask-Limited.html">
                                                 <div class="nav-link-bg"
                                                     data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/GQMask_social_180x.jpeg?v=1600251977 180w 207h,
@@ -290,7 +249,64 @@
                                                 <div class="nav-link">Limited Edition</div>
                                             </a>
                                         </li>
-                                        <li class="nav-item nav-item-dropdown-16 float-left">
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item drop-down nav-item-wrap">
+                                <a href="../pages/GQKids-mask-main.html">GQ Kids</a>
+                                <div class="nav-dropdown">
+                                    <ul class="nav-dropdrown-list">
+                                    <li class="nav-item nav-item-dropdown-25 float-left">
+                                            <a href="../pages/GQKids-shop-all.html">
+                                                <div class="nav-link-bg"
+                                                        data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids_180x.jpg?v=1606132776 180w 210h,
+                                                        //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids.jpg?v=1606132776 346w 404h" role="img" aria-label="" _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids_600x.jpg?v=1606132776&quot;)" style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids.jpg?v=1606132776&quot;);"><picture style="display: none;"><source data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids.jpg?v=1606132776 346w 404h" sizes="215.99999999999997px" srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_GQ_kids.jpg?v=1606132776 346w 404h"><img alt="" class="lazyautosizes lazyloaded" data-sizes="auto" data-parent-fit="cover" sizes="215.99999999999997px">
+                                                    </picture>
+                                                    </div>
+                                                <div class="nav-link">Shop all</div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
+                                            <a href="../GQbaby-shark.html">
+                                                <div class="nav-link-bg"
+                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation_180x.jpg?v=1606113783 180w 210h,
+                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation.jpg?v=1606113783 346w 404h"
+                                                    role="img" aria-label=""
+                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation_600x.jpg?v=1606113783&quot;)"
+                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation.jpg?v=1606113783&quot;);">
+                                                    <picture style="display: none;">
+                                                        <source
+                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation_180x.jpg?v=1606113783 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation.jpg?v=1606113783 346w 404h"
+                                                            sizes="294.85714285714283px"
+                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation_180x.jpg?v=1606113783 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/babyshark_navigation.jpg?v=1606113783 346w 404h">
+                                                        <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
+                                                            data-parent-fit="cover" sizes="294.85714285714283px">
+                                                    </picture>
+                                                </div>
+                                                <div class="nav-link">Pinkfong Baby Shark</div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
+                                            <a href="../pages/GQschool-mask.html">
+                                                <div class="nav-link-bg"
+                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h,
+                                                //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h"
+                                                    role="img" aria-label=""
+                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_600x.jpg?v=1603274113&quot;)"
+                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113&quot;);">
+                                                    <picture style="display: none;">
+                                                        <source
+                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h"
+                                                            sizes="294.85714285714283px"
+                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation_180x.jpg?v=1603274113 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/SMP-navigation.jpg?v=1603274113 346w 404h">
+                                                        <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
+                                                            data-parent-fit="cover" sizes="294.85714285714283px">
+                                                    </picture>
+                                                </div>
+                                                <div class="nav-link">SchoolMaskPack™</div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../gqmask/a.php?index=4&name=GQWhite™ Kids Mask หน้ากากผ้าเด็ก">
                                                 <div class="nav-link-bg"
                                                     data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_180x.jpg?v=1599623765 180w 228h,
@@ -299,14 +315,15 @@
                                                 //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1.jpg?v=1599623765 585w 740h"
                                                     role="img" aria-label="Green/Yellow"
                                                     _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_600x.jpg?v=1599623765&quot;)"
-                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_360x.jpg?v=1599623765&quot;);">
+                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1.jpg?v=1599623765&quot;);">
                                                     <picture style="display: none;">
                                                         <source
                                                             data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_180x.jpg?v=1599623765 180w 228h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_360x.jpg?v=1599623765 360w 455h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_540x.jpg?v=1599623765 540w 683h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1.jpg?v=1599623765 585w 740h"
-                                                            sizes="134px"
+                                                            sizes="287px"
                                                             srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_180x.jpg?v=1599623765 180w 228h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_360x.jpg?v=1599623765 360w 455h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1_540x.jpg?v=1599623765 540w 683h, //cdn.shopify.com/s/files/1/0439/3192/6691/products/kid-1.jpg?v=1599623765 585w 740h">
                                                         <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
-                                                            data-parent-fit="cover" sizes="134px"></picture>
+                                                            data-parent-fit="cover" sizes="287px">
+                                                    </picture>
                                                 </div>
                                                 <div class="nav-link">GQWhite™ Kids Mask</div>
                                             </a>
@@ -314,41 +331,17 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item nav-item-wrap">
-                                <a href="../pages/GQbaby-shark.html">Pinkfong Baby Shark</a>
-                            </li>
-                            <li class="nav-item nav-item-wrap">
-                                <a href="../pages/GQschool-mask.html">SchoolMaskPack™</a>
-                            </li>
                             <li class="nav-item drop-down nav-item-wrap">
                                 <a class="drop-down" href="../pages/GQessentials-shop-all.html">Essentials</a>
                                 <div class="nav-dropdown">
                                     <ul class="nav-dropdrown-list">
                                         <li class="nav-item nav-item-dropdown-25 float-left">
                                             <a href="../pages/GQessentials-shop-all.html">
-                                                <div class="nav-link-bg"
-                                                    data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_180x.png?v=1599818027 180w 60h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_360x.png?v=1599818027 360w 121h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_540x.png?v=1599818027 540w 181h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_720x.png?v=1599818027 720w 242h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_900x.png?v=1599818027 900w 302h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1080x.png?v=1599818027 1080w 363h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1296x.png?v=1599818027 1296w 435h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1512x.png?v=1599818027 1512w 508h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1728x.png?v=1599818027 1728w 581h,
-                                                //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3.png?v=1599818027 1920w 645h"
-                                                    role="img" aria-label="ESSENTIALS"
-                                                    _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_600x.png?v=1599818027&quot;)"
-                                                    style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1512x.png?v=1599818027&quot;);">
-                                                    <picture style="display: none;">
-                                                        <source
-                                                            data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_180x.png?v=1599818027 180w 60h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_360x.png?v=1599818027 360w 121h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_540x.png?v=1599818027 540w 181h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_720x.png?v=1599818027 720w 242h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_900x.png?v=1599818027 900w 302h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1080x.png?v=1599818027 1080w 363h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1296x.png?v=1599818027 1296w 435h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1512x.png?v=1599818027 1512w 508h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1728x.png?v=1599818027 1728w 581h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3.png?v=1599818027 1920w 645h"
-                                                            sizes="755.9999999999999px"
-                                                            srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_180x.png?v=1599818027 180w 60h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_360x.png?v=1599818027 360w 121h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_540x.png?v=1599818027 540w 181h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_720x.png?v=1599818027 720w 242h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_900x.png?v=1599818027 900w 302h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1080x.png?v=1599818027 1080w 363h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1296x.png?v=1599818027 1296w 435h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1512x.png?v=1599818027 1512w 508h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3_1728x.png?v=1599818027 1728w 581h, //cdn.shopify.com/s/files/1/0439/3192/6691/collections/GQ-Homepage-Top-3.png?v=1599818027 1920w 645h">
-                                                        <img alt="" class="lazyautosizes lazyloaded" data-sizes="auto"
-                                                            data-parent-fit="cover" sizes="755.9999999999999px">
-                                                    </picture>
-                                                </div>
+                                                    <div class="nav-link-bg"
+                                                        data-bgset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials_180x.jpg?v=1606132776 180w 210h,
+                                                        //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials.jpg?v=1606132776 346w 404h" role="img" aria-label="" _style="background-image:url(&quot;//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials_600x.jpg?v=1606132776&quot;)" style="background-image: url(&quot;https://cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials.jpg?v=1606132776&quot;);"><picture style="display: none;"><source data-srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials.jpg?v=1606132776 346w 404h" sizes="215.99999999999997px" srcset="//cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials_180x.jpg?v=1606132776 180w 210h, //cdn.shopify.com/s/files/1/0439/3192/6691/files/navigation_essentials.jpg?v=1606132776 346w 404h"><img alt="" class="lazyautosizes lazyloaded" data-sizes="auto" data-parent-fit="cover" sizes="215.99999999999997px">
+                                                            </picture>
+                                                    </div>
                                                 <div class="nav-link">Shop all</div>
                                             </a>
                                         </li>
@@ -436,7 +429,7 @@
                                 <a href="../pages/login.html">Login</a>
                             </li>
                             <li class="nav-item nav-item-wrap">
-                                <a href=" #">
+                                <a href="">
                                     <span class="nav-icon-wrapper">
                                         <svg aria-hidden="true" focusable="false" role="presentation"
                                             class="nav-icon nav-icon-search" viewBox="0 0 16 16">
@@ -495,6 +488,7 @@
             </div>
         </div>
     </div>
+
 
 
 
