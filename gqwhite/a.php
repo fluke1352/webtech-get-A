@@ -343,6 +343,9 @@
                                 </div>
                             </li>
                             <li class="nav-item drop-down nav-item-wrap">
+                                <a href="../pages/GQT-shirt.html">GQ T-Shirt</a>
+                            </li>
+                            <li class="nav-item drop-down nav-item-wrap">
                                 <a class="drop-down" href="../pages/GQessentials-shop-all.html">Essentials</a>
                                 <div class="nav-dropdown">
                                     <ul class="nav-dropdrown-list">
